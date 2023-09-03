@@ -26,30 +26,63 @@
     box-sizing: border-box;
   }
 
+  #colorPicker {
+    height: 40px;
+    width: 80px;
+    align-self: center;
+  }
+
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bolder;
+  }
+
   .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-around;
     padding: 100px;
+  }
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+
+  }
+
+  button {
+    margin: 25px;
+  }
+
+  input {
+    margin: 25px;
   }
   
   .grid {
     display: grid;
     height: 500px;
     width: 500px;
+    border: solid black 1px;
   }
   
   .grid>div {
-    border: 1px solid black;
     margin: 0;
     padding: 0;
   }
   
-
+/* 
   .pressed {
     background-color: black;
   }
 
   .unpressed {
     background-color: white;
-  }
+  } */
